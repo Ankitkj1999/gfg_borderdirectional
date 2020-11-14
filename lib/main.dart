@@ -42,14 +42,7 @@ void main() {
                         color: Colors.green,
                         width: 4,
                         style: BorderStyle.solid),
-                    end: BorderSide(
-                        color: Colors.green,
-                        width: 8,
-                        style: BorderStyle.solid),
-                    top: BorderSide(
-                        color: Colors.blue, width: 4, style: BorderStyle.solid),
-                    bottom: BorderSide(
-                        color: Colors.pink, width: 8, style: BorderStyle.solid),
+                    end: BorderSide(color: Colors.blue, width: 4),
                   ), //Border
                 ), //BoxDecoration
               ), //Container

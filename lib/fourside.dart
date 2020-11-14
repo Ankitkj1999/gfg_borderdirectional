@@ -3,12 +3,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      builder: (context, child) {
-        return Directionality(
-          textDirection: TextDirection.ltr,
-          child: child,
-        );
-      },
       home: Scaffold(
         appBar: AppBar(
           title: Text('GeeksforGeeks'),
@@ -41,15 +35,19 @@ void main() {
                     start: BorderSide(
                         color: Colors.green,
                         width: 4,
-                        style: BorderStyle.solid),
+                        style: BorderStyle.solid), //BorderSide
                     end: BorderSide(
                         color: Colors.green,
                         width: 8,
-                        style: BorderStyle.solid),
+                        style: BorderStyle.solid), //BorderSide
                     top: BorderSide(
-                        color: Colors.blue, width: 4, style: BorderStyle.solid),
+                        color: Colors.blue,
+                        width: 4,
+                        style: BorderStyle.solid), //BorderSide
                     bottom: BorderSide(
-                        color: Colors.pink, width: 8, style: BorderStyle.solid),
+                        color: Colors.pink,
+                        width: 8,
+                        style: BorderStyle.solid), //BorderSide
                   ), //Border
                 ), //BoxDecoration
               ), //Container

@@ -7,7 +7,7 @@ void main() {
         return Directionality(
           textDirection: TextDirection.ltr,
           child: child,
-        );
+        ); //Directionality
       },
       home: Scaffold(
         appBar: AppBar(
@@ -41,7 +41,11 @@ void main() {
                     start: BorderSide(
                         color: Colors.green,
                         width: 4,
-                        style: BorderStyle.solid),
+                        style: BorderStyle.solid), //BorderSide
+                    end: BorderSide(
+                        color: Colors.blue,
+                        width: 4,
+                        style: BorderStyle.solid), //BorderSide
                   ), //Border
                 ), //BoxDecoration
               ), //Container
